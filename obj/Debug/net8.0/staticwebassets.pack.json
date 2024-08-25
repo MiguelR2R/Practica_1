@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\enriq\\Desktop\\PC1\\wwwroot\\images\\bull-bear.png",
+      "PackagePath": "staticwebassets\\images\\bull-bear.png"
+    },
+    {
       "Id": "C:\\Users\\enriq\\Desktop\\PC1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

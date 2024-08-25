@@ -3,16 +3,10 @@
 }
 
 <div class="home-container">
-    <div class="navbar">
-        <ul>
-            <li><a href="/" class="active">HOME</a></li>
-            <li><a href="/Home/Operacion">OPERACION EN BOLSA</a></li>
-            <li><a href="/Home/Acerca">ACERCA</a></li>
-        </ul>
-    </div>
+ 
 
     <div class="main-content">
         <img src="~/images/bull-bear.png" alt="Bull and Bear" class="market-image" />
-        <button class="btn-start" onclick="location.href='@Url.Action("Operacion", "Home")'">INICIAR OPERACIONES</button>
     </div>
+    <button class="btn-start" onclick="location.href='@Url.Action("Operacion", "Home")'">INICIAR OPERACIONES</button>
 </div>

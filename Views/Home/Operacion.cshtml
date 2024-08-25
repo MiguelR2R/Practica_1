@@ -1,13 +1,96 @@
-<div class="operacion">
-    <h1>Operación en Bolsa</h1>
-    <form method="post" action="/Home/Operacion">
-        <label>Nombre y Apellido</label>
-        <input type="text" name="NombreApellido" required />
-        <label>Correo Electrónico</label>
-        <input type="email" name="CorreoElectronico" required />
-        <label>Fecha de Operación</label>
-        <input type="date" name="FechaOperacion" required />
-        <!-- Selección de instrumentos -->
-        <button type="submit">Invertir</button>
-    </form>
-</div>
+@model MiProyecto.Models.InversionModel
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inversión</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+        }
+        .form-container, .details-container {
+            background-color: #fefefe;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .form-container h2, .details-container h2 {
+            text-align: center;
+        }
+        .form-container input[type="text"], .form-container input[type="email"], .form-container input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-container input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .form-container button, .details-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #d9534f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .details-container {
+            text-align: left;
+        }
+        .details-container .item {
+            margin: 10px 0;
+        }
+        .details-container .total, .details-container .igv, .details-container .final {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form asp-action="Invertir" method="post">
+                <h2>Datos de Inversión</h2>
+                <input type="text" name="Nombre" placeholder="Nombre y Apellido" required />
+                <input type="email" name="Correo" placeholder="Correo electrónico" required />
+                <input type="date" name="FechaOperacion" placeholder="Fecha de Operación" required />
+                <div>
+                    <input type="checkbox" name="SeleccionSP500" />
+                    <label for="SeleccionSP500">S&P 500 ($500)</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="SeleccionDowJones" />
+                    <label for="SeleccionDowJones">DOW JONES ($300)</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="SeleccionBonosUS" />
+                    <label for="SeleccionBonosUS">BONOS US ($120)</label>
+                </div>
+                <button type="submit">INVERTIR</button>
+            </form>
+        </div>
+
+        <div class="details-container">
+            <h2>Detalles</h2>
+            <div class="item">S&P 500: $500</div>
+            <div class="item">DOW JONES: $300</div>
+            <div class="item">BONOS US: $120</div>
+            <div class="item total">Total: $920</div>
+            <div class="item igv">IGV: 18%</div>
+            <div class="item final">Monto a Pagar: $1085.60</div>
+            <button>PAGAR</button>
+        </div>
+    </div>
+</body>
+</html>

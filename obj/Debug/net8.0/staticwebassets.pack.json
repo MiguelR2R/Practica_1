@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\images\\bull-bear.png"
     },
     {
+      "Id": "C:\\Users\\enriq\\Desktop\\PC1\\wwwroot\\images\\logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\enriq\\Desktop\\PC1\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
       "Id": "C:\\Users\\enriq\\Desktop\\PC1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -247,10 +255,6 @@
     {
       "Id": "C:\\Users\\enriq\\Desktop\\PC1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "C:\\Users\\enriq\\Desktop\\PC1\\wwwroot\\site.css",
-      "PackagePath": "staticwebassets\\site.css"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PC1.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rPxCrkZOtkdxyIlSxvrZ5tLB/3uC2Py2g7Mh8msszsI=",
+  "Hash": "6f/ZNtsmANB0Ar8Ou4IgADHe7VWuHz5GwUOmJGWwpIo=",
   "Source": "PC1",
   "BasePath": "_content/PC1",
   "Mode": "Default",
@@ -110,6 +110,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\bull-bear.png"
+    },
+    {
+      "Identity": "C:\\Users\\enriq\\Desktop\\PC1\\wwwroot\\images\\logo.jpg",
+      "SourceId": "PC1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\enriq\\Desktop\\PC1\\wwwroot\\",
+      "BasePath": "_content/PC1",
+      "RelativePath": "images/logo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\enriq\\Desktop\\PC1\\wwwroot\\images\\logo.png",
+      "SourceId": "PC1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\enriq\\Desktop\\PC1\\wwwroot\\",
+      "BasePath": "_content/PC1",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "C:\\Users\\enriq\\Desktop\\PC1\\wwwroot\\js\\site.js",
@@ -1212,25 +1250,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\enriq\\Desktop\\PC1\\wwwroot\\site.css",
-      "SourceId": "PC1",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\enriq\\Desktop\\PC1\\wwwroot\\",
-      "BasePath": "_content/PC1",
-      "RelativePath": "site.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\site.css"
     }
   ]
 }

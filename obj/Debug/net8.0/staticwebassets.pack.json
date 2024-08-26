@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
+      "Id": "C:\\Users\\enriq\\Desktop\\PC1\\wwwroot\\images\\red.png",
+      "PackagePath": "staticwebassets\\images\\red.png"
+    },
+    {
       "Id": "C:\\Users\\enriq\\Desktop\\PC1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
